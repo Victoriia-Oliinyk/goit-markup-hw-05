@@ -26,13 +26,15 @@
 
           <ul class="site-nav list">
             <li class="nav-item">
-              <a href="./index.html" class="link">Студия</a>
+              <a href="./index.html" class="link navigation-link">Студия</a>
             </li>
             <li class="nav-item">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+              <a href="./portfolio.html" class="navigation-link link current"
+                >Портфолио</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#contacts" class="link">Контакты</a>
+              <a href="#contacts" class="link navigation-link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -91,19 +93,30 @@
 
           <ul class="link-filtrs list">
             <li class="filtrs-box">
-              <a class="link-filtrs-box" href=""
-                ><img
-                  class="image"
-                  src="./images/homework-two/img-1.jpg"
-                  alt="открытая страница на мониторе ноутбука"
-                  width="370"
-                  height="294"
-                />
-                <div class="text-card">
-                  <h2 class="link-title-filtrs">Технокряк</h2>
-                  <p class="text-box">Веб-сайт</p>
-                </div></a
-              >
+              <a class="link-filtrs-box" href="">
+                <div class="overlay-blok">
+                  <img
+                    class="image"
+                    src="./images/homework-two/img-1.jpg"
+                    alt="открытая страница на мониторе ноутбука"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay-card">
+                    <p class="overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                  </div>
+                  <div class="text-card">
+                    <h2 class="link-title-filtrs">Технокряк</h2>
+                    <p class="text-box">Веб-сайт</p>
+                  </div>
+                
+              </a>
             </li>
             <li class="filtrs-box">
               <a class="link-filtrs-box" href=""
@@ -335,5 +348,6 @@
       </div>
       <!-- </div> -->
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
